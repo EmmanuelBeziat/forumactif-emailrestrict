@@ -1,6 +1,3 @@
-forumactif-emailrestrict
-========================
-
 script messageSaver pour ForumActif
 =======================
 
