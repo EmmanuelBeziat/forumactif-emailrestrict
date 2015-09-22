@@ -1,9 +1,9 @@
-/**
+/*!
  * Nom: emailrestrict
  * Version: 1.0
  * Description: Permet de restreindre les emails à l'inscription, en bloquant certains domaines
  * Auteur: Emmanuel "Manumanu" B
- * GitHub: https://github.com/RhooManu/forumactif-emailrestrict
+ * GitHub: https://github.com/EmmanuelBeziat/forumactif-emailrestrict
  */
 
 /**
@@ -31,7 +31,7 @@ var emailrestrict = (function($, undefined) {
 
 		return false;
 	};
-	
+
 	/**
 	 * Initialisation du script
 	 */
@@ -60,7 +60,7 @@ var emailrestrict = (function($, undefined) {
  * Attend le chargement complet de la page (et non du DOM)
  * pour permettre le chargement préalable de l'éditeur JS
  */
-$(document).ready(function() {
+$(function() {
 
 	// Lancer le script
 	emailrestrict.init([

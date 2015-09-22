@@ -1,0 +1,30 @@
+{
+  "name": "forumactif-emailrestrict",
+  "version": "1.0.0",
+  "description": "Si vous avez l'envie étrange de restreindre des adresses email par domaines à l'inscription de vos membres (par exemple, interdire les adresses en @gmail.com), alors ce plugin est fait pour vous.",
+  "main": "fa-emailrestrict.min.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhooManu/forumactif-emailrestrict.git"
+  },
+  "keywords": [
+    "forumactif",
+    "javascript",
+    "email"
+  ],
+  "author": "EmmanuelBeziat",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/RhooManu/forumactif-emailrestrict/issues"
+  },
+  "homepage": "https://github.com/RhooManu/forumactif-emailrestrict#readme"
+}

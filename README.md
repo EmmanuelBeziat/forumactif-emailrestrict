@@ -9,9 +9,9 @@ Si vous avez l'envie étrange de restreindre des adresses email par domaines à 
 2. Assurez-vous que "Activer la gestion des codes Javascript" est bien actif, puis cliquez sur "Créer un nouveau javascript".
 3. Dans la nouvelle fenêtre, copiez-collez simplement ce code, tel quel :
 ```javascript
-var emailrestrict=function(e,t){"use strict";var n=function(e,t){var n=e.split("@");for(var r in t){if(n[1]===t[r]){alert('Les adresses de type "'+t[r]+'" ne sont pas autorisées.');return true}}return false};var r=function(t){var r=e("#form_register"),i=r.find("#email");r.on("submit",function(e){if(n(i.val(),t)){e.preventDefault()}})};return{init:r}}(jQuery);
+var emailrestrict=function(r,i){"use strict";var t=function(r,i){var t=r.split("@");for(var e in i)if(t[1]===i[e])return alert('Les adresses de type "'+i[e]+'" ne sont pas autorisées.'),!0;return!1},e=function(i){var e=r("#form_register"),n=e.find("#email");e.on("submit",function(r){t(n.val(),i)&&r.preventDefault()})};return{init:e}}(jQuery);
 
-$(document).ready(function() {
+$(function() {
 	emailrestrict.init([
 		// La liste
 		'gmail.com',
